@@ -1,0 +1,33 @@
+/* HTML: <div class="tooltip">This is the same as #5 but with more control over the tail</div> */
+.dmc-tooltip p {
+    margin: 0;
+}
+
+.dmc-tooltip {
+    color: #fff;
+    text-align: left;
+}
+
+.dmc-tooltip {
+
+    position: relative;
+    border: 1px solid #A61D37;
+    border-radius: 8px;
+    padding: 1em;
+
+}
+
+.dmc-tooltip::after {
+    content: "";
+    background: url("../img/corner1.png") no-repeat;
+    bottom: -1.625rem;
+    height: 1.625rem;
+    right: 0;
+    position: absolute;
+    width: 7.188rem
+}
+
+.dmc-tooltip-even::after {
+    background-image: url("../img/corner2.png");
+    left: 0;
+}

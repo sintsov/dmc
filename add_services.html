@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="msapplication-TileColor" content="#2d89ef"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <title>A-DMC GLOBAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/local.css" rel="stylesheet" type="text/css"/>
+    <link href="css/tooltip.css" rel="stylesheet" type="text/css"/>
+    <link href="fonts/Gilroy_font.css" rel="stylesheet" type="text/css"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png"/>
+    <link rel="manifest" href="site.webmanifest"/>
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header class="header-wrapper">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid"><a class="navbar-brand" href="index.html" title="A-DMC GLOBAL"><img
+                src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="150"/></a>
+            <button
+                    class="navbar-toggler left-position-top-menu" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav top-menu">
+                    <a class="nav-link" href="mice_offers.html">MICE Offers</a>
+                    <a class="nav-link active" href="#">Add Services</a>
+                    <a class="nav-link" href="choose_destination.html">Choose a Destination</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+</header>
+<section class="banner-section" style="background-image: url(img/banner_5.jpg)">
+    <!-- здесь прописывается адрес картинки банера -->
+    <div class="container-fluid banner-section-container lora-regular">
+        <h1>Join A-DMC GLOBAL today!</h1>
+        <p>
+            If your goal is to rapidly develop your business, then you really need to join the A-DMC GLOBAL project.
+            Together, we can effectively beat the current global crisis, and at minimal cost. Our project is the only
+            one of
+            its kind. It reaches an enormous segment users and is sought after by potential corporate clients and
+            associations, including world brands such as Microsoft, Coca-Cola, TOTSA TotalEnergies Trading SA, CRIF, and
+            CFA
+            Institute and professionals in the MICE and travel industries.
+
+        </p>
+        <p>Only companies with experience of working in the MICE sector may take part. If you decide to participate,
+            please
+            fill in the online application to become a partner of A-DMC GLOBAL. Your application will be considered on
+            an
+            individual basis; we will be in touch with you.</p>
+
+        <p class="mt-5">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+                REQUEST A PROPOSAL
+            </button>
+        </p>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">REQUEST FORM</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div style="
+                color: #a61d37;
+                font-size: 1rem;
+                font-weight: 400;
+                text-align: center;
+              ">
+                    Your details
+                </div>
+                <form class="row g-3 lora-regular">
+                    <div class="col-md-12">
+                        <label for="inputLocation" class="form-label">What destination or location interests you? <span
+                                class="red">*</span></label>
+                        <input type="text" class="form-control" id="inputLocation"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputContact" class="form-label">Contact Person <span class="red">*</span></label>
+                        <input type="text" class="form-control" id="inputContact"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">E-mail <span class="red">*</span></label>
+                        <input type="email" class="form-control" id="inputEmail"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPhone" class="form-label">Phone <span class="red">*</span></label>
+                        <input type="text" class="form-control" id="inputPhone"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputWebsite" class="form-label">Website <span class="red">*</span></label>
+                        <input type="text" class="form-control" id="inputWebsite"/>
+                    </div>
+                    <div class="col-12">
+                        <label for="Message" class="form-label">Message <span class="red">*</span></label>
+                        <textarea id="Message" class="form-control" aria-label="Message" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-label pt-02r ">File</div>
+                        <input class="form-control" type="file" id="formFile" hidden/><label for="formFile"
+                                                                                             class="form-label choiceFile">Select
+                        a file</label><span class="input-error is-visible">File is not
+                selected
+              </span>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="captcha lobster-regular">4373</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputCode" class="form-label">Security code <span class="red">*</span></label>
+                        <input type="text" class="form-control" id="inputCode"/>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">
+                            SEND MESSAGE
+                        </button>
+                    </div>
+                </form>
+                <div class="footer-modal-form lora-regular">
+                    <p class="form-footer-title">Protection of confidentiality</p>
+                    <p>
+                        A-DMC GLOBAL takes very seriously its responsibility for
+                        personal information supplied by our clients and takes all
+                        necessary precautions to ensure protection of personal data in
+                        accordance with European law. Your personal data (e.g. name and
+                        surname, telephone numbers, email address, website, Skype
+                        details, and information concerning your trip) indicated when
+                        filling out the online Proposal Request and hotel-booking form
+                        will be accessible only to our representative DMC in the country
+                        that interests you and will be used only for the purpose of
+                        supplying you with services that you have ordered. You will not
+                        be asked on our site to give details of your credit card, and
+                        payment will be made in accordance with the conditions that you
+                        have agreed with the relevant DMC in accordance with the
+                        commercial proposal that the latter will send you after
+                        processing your Proposal Request. Thus your personal data are
+                        accessible only to the direct executors of your order and will
+                        under no circumstances be made available to third parties.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid middle-block blue-background lora-regular pt-5 pb-5">
+
+    <dl class="info-block row mt-lg-4">
+        <dt class="col-sm-4">
+            <div class="title-with-right-border"> JOIN US AND YOU WILL HAVE A CLEAR ADVANTAGE:</div>
+        </dt>
+        <dd class="col-sm-8 fs-6 lh-base">
+            <p>you will be able to place information on the popular website <a href="https://a-dmcglobal.com/">https://a-dmcglobal.com/</a>,
+                giving you good results in Internet searches and
+                an outstanding conversion rate which will be reflected in the success of your business</p>
+            <p>your participation in the <a href="https://a-dmcglobal.com/">https://a-dmcglobal.com/</a> will be an
+                effective
+                forms of advertising and a
+                powerful lever for promoting your company;</p>
+            <p>you will have a key to effective marketing, winning over new markets and target audiences, and acquiring
+                new
+                business contacts;</p>
+            <p>the services, offers, present on the website will be accessible to potential customers –now more
+                important
+                than ever before;</p>
+            <p>to boost your professional corporate reputation, you will be entitled to use the ‘A-DMC GLOBAL PARTNER’
+                logo
+                in your marketing materials.</p>
+        </dd>
+    </dl>
+    <dl class="info-block row mt-lg-4">
+        <dt class="col-sm-4">
+            <div class="title-with-right-border">FEEDBACK FROM PARTNERS:</div>
+        </dt>
+        <dd class="col-sm-8 fs-6 lh-base">
+            <div class="row">
+                <div class="col-sm-6 d-flex mb-5">
+                    <div class="dmc-tooltip"><p>Dear Gennadiy,</p>
+                        <p>Thank you again for your continued support and business.</p>
+                        <p>I enjoy your co-operation and look forward to hearing from you soon.</p>
+                        <p>Kindest regards</p>
+                        <p> Dee.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex mb-5">
+                    <div class="dmc-tooltip dmc-tooltip-even"><p>Dear Gennadiy,</p>
+                        <p>Good news.</p>
+                        <p>We just finalized the file for Brands at Work.</p>
+                        <p>Best regards and thanks for this great business,</p>
+                        <p>Anouk</p>
+                    </div>
+                </div>
+            </div>
+        </dd>
+    </dl>
+
+</div>
+<div class="container-fluid red-background lora-regular pt-pb3">
+    <div class="card mb-0" style="z-index: 10;">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="img/carousel/image_2.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/camel_ride.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/pco.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h2 class="card-title">ADD DMC</h2>
+                    <p class="card-text ">
+                        Dear colleagues,</p>
+                    <p class="card-text ">I should point out that only one company on our website has the exclusive
+                        right to
+                        represent a destination
+                        as a Destination Management company.
+                    </p>
+                    <div class="card-btn-wrapper"><a href="#app-form" class="link-button"> to Application form >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-0" style="z-index: 9;">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h2 class="card-title">ADD SERVICE</h2>
+                    <p class="card-text">
+                        Dear partners,
+                    </p>
+                    <p class="card-text">You have a flawless reputation and you supply services which are essential to
+                        holding a
+                        successful MICE event? Then we can offer you the opportunity to propose your services to clients
+                        and event
+                        organizers.
+                        The supplier’s information will be placed on the website page for the supplier’s destination in
+                        accordance
+                        with field of business.</p>
+                    <div class="card-btn-wrapper"><a href="#app-form" class="link-button"> to Application form >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel/222.jpg" class=" img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/microphone.jpg" class=" img-fluid" alt="...">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-0" style="z-index: 8;">
+        <div class="row g-0">
+            <div class="col-md-6 ">
+                <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel/3.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/dmc_cancun.jpg" class="img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel/milan.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h2 class="card-title">ADD DESTINATION</h2>
+                    <p class="card-text">
+                        Dear friends,
+                    </p>
+                    <p class="card-text">You represent a destination or a resort with the right infrastructure and range
+                        of
+                        services to meet all requirements for holding entertaining events? If so, we invite you to work
+                        with us in
+                        promoting your destination and developing your business. Let’s join forces in order to present
+                        your destination and its boundless opportunities to professionals in the industry. For this, you
+                        will
+                        need to prepare information and photographs for your destination.</p>
+                    <div class="card-btn-wrapper"><a href="#app-form" class="link-button"> to Application form >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="container-fluid blue-background  lora-regular pt-5 pb-5 " id="app-form">
+    <div class="row g-3 partnership-form">
+        <h2 class="text-center mb-3"> PARTNERSHIP APPLICATION FORM</h2>
+        <p class="text-center lora-regular">Thank you for your
+            interest in our project and for making the right decision.</p>
+        <form class="lora-regular">
+            <p><label for="inputCompany" class="form-label">Company <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputCompany"/></p>
+            <p><label for="inputBusinessPr" class="form-label">Business profile <span
+                    class="red">*</span> </label>
+                <input type="text" class="form-control" id="inputBusinessPr"/></p>
+            <p><label for="inputEstablished" class="form-label">Year your company was established <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputEstablished"/></p>
+            <p><label for="inputCity" class="form-label">City <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputCity"/></p>
+            <p><label for="inputCountry2" class="form-label">Country <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputCountry2"/></p>
+            <p><label for="inputContact2" class="form-label">Contact Person <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputContact2"/></p>
+            <p><label for="inputPhone2" class="form-label">Phone <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputPhone2"/></p>
+            <p><label for="inputEmail3" class="form-label">E-mail <span
+                    class="red">*</span></label>
+                <input type="email" class="form-control" id="inputEmail3"/></p>
+            <p><label for="inputWebsite2" class="form-label">Website <span
+                    class="red">*</span></label>
+                <input type="text" class="form-control" id="inputWebsite2"/></p>
+            <p>
+                <button type="submit" class="btn btn-primary">
+                    SEND FORM
+                </button>
+            </p>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid">
+        <div class="row g-3">
+            <div class="col-md-4 contact-block"><a class="navbar-brand mb-sm-1  mt-sm-4" href="index.html"
+                                                   title="A-DMC GLOBAL"><img src="img/a_dms_logo.svg" alt="A-DMC GLOBAL"
+                                                                             width="200"/></a>
+                <h2 class="my-5 py-0">REGIONAL REPRESENTATION</h2>
+                <dl>
+                    <dt class="lora-semibold">
+                        <div>AFRICA & MIDDLE EAST</div>
+                        <div class="red">Marrakech, MOROCCO</div>
+                    </dt>
+                    <dd class="lora-regular"><a href="mailto:morocco@a-dmcglobal.com"
+                                                class="email-link">morocco@a-dmcglobal.com</a></dd>
+                    <dt class="lora-semibold">
+                        <div>ASIA PACIFIC</div>
+                        <div class="red">Melbourne, AUSTRALIA</div>
+                    </dt>
+                    <dd class="lora-regular"><a href="mailto:australia@a-dmcglobal.com"
+                                                class="email-link">australia@a-dmcglobal.com</a></dd>
+                    <dt class="lora-semibold">
+                        <div>EUROPE</div>
+                        <div class="red">Geneva, SWITZERLAND</div>
+                    </dt>
+                    <dd class="lora-regular"><a href="mailto:geneva@a-dmcglobal.com"
+                                                class="email-link">geneva@a-dmcglobal.com</a></dd>
+                    <dt class="lora-semibold">
+                        <div>THE AMERICAS</div>
+                        <div class="red">Mexico City, MEXICO</div>
+                    </dt>
+                    <dd class="lora-regular"><a href="mailto:mexico@a-dmcglobal.com"
+                                                class="email-link">mexico@a-dmcglobal.com</a></dd>
+
+                </dl>
+
+            </div>
+            <div class="col-md-8">
+                <h2 class="block-title">CONTACT US</h2>
+
+                <form class="row g-3 footer-contact-form lora-regular">
+                    <div class="col-md-6">
+                        <label for="inputDestination" class="form-label  form-label-block">
+                            <input type="text" class="form-control" id="inputDestination"
+                                   placeholder="What destination or location interests you? * "/></label>
+                    </div>
+                    <div class="col-md-6">
+
+                        <label for="inputPerson" class="form-label  form-label-block">
+                            <input type="text" class="form-control" id="inputPerson"
+                                   placeholder="Contact Person*"/></label>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCountry" class="form-label  form-label-block">
+                            <input type="text" class="form-control" id="inputCountry" placeholder="E-mail*"/></label>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputEmail2" class="form-label  form-label-block">
+                            <input type="email" class="form-control" id="inputEmail2" placeholder="Website*"/></label>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="Message2" class="form-label  form-label-block">
+                <textarea id="Message2" class="form-control " aria-label="Message" rows="3"
+                          placeholder="Message*"></textarea></label>
+                    </div>
+                    <div class="col-md-5">
+                        <span class="captcha lobster-regular">4373</span>
+
+                        <label for="inputCode2" class="form-label ">
+                            <input type="text" class="form-control security-code-input" id="inputCode2"
+                                   placeholder="Security code "/></label>
+                    </div>
+                    <div class="col-md-7">
+                        <input class="form-control" type="file" id="formFile2" hidden/><label for="formFile2"
+                                                                                              class="form-label choiceFile">Select
+                        a file</label><span class=" input-error is-visible">File is not
+                selected
+              </span>
+                    </div>
+
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">
+                            SEND MESSAGE
+                        </button>
+                    </div>
+                </form>
+                <div class="comment lora-regular">
+                    <p class="form-footer-title">Protection of confidentiality</p>
+                    <p>
+                        A-DMC GLOBAL takes very seriously its responsibility for
+                        personal information supplied by our clients and takes all
+                        necessary precautions to ensure protection of personal data in
+                        accordance with European law. Your personal data (e.g. name and
+                        surname, telephone numbers, email address, website, Skype
+                        details, and information concerning your trip) indicated when
+                        filling out the online Proposal Request and hotel-booking form
+                        will be accessible only to our representative DMC in the country
+                        that interests you and will be used only for the purpose of
+                        supplying you with services that you have ordered. You will not
+                        be asked on our site to give details of your credit card, and
+                        payment will be made in accordance with the conditions that you
+                        have agreed with the relevant DMC in accordance with the
+                        commercial proposal that the latter will send you after
+                        processing your Proposal Request. Thus your personal data are
+                        accessible only to the direct executors of your order and will
+                        under no circumstances be made available to third parties.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div class="footer-copyright lora-regular">Website Builder by Microweber | Admin</div>
+</body>
+
+</html>
