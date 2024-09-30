@@ -28,7 +28,7 @@
 <body>
 <script src="js/bootstrap.bundle.min.js"></script>
 <header class="header-wrapper">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
         <div class="container-fluid"><a class="navbar-brand" href="index.html" title="A-DMC GLOBAL"><img
                 src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="150"/></a>
             <button
@@ -39,18 +39,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-                <div class="navbar-nav top-menu">
-                    <a class="nav-link" href="mice_offers.html">MICE Offers</a>
-                    <a class="nav-link" href="add_services.html">Add Services</a>
-                    <a class="nav-link" href="choose_destination.html">Choose a Destination</a>
-                </div>
+
+                <ul class="navbar-nav top-menu">
+                    <li><a class="nav-link" href="mice_offers.html">MICE Offers</a></li>
+                    <li><a class="nav-link" href="add_services.html">Add Services</a></li>
+                    <li><a class="nav-link" href="choose_destination.html">Choose a Destination</a></li>
+                </ul>
+
             </div>
 
         </div>
     </nav>
 
 </header>
-<section class="banner-section" style="background-image: url(img/banner_4.jpg)">
+<section class="banner-section side-padding" style="background-image: url(img/banner_4.jpg)">
     <!-- здесь прописывается адрес картинки банера -->
     <div class="container-fluid banner-section-container lora-regular">
         <h1>DESTINATION MANAGEMENT COMPANIES (DMCs)</h1>
@@ -86,7 +88,7 @@
                 color: #a61d37;
                 font-size: 1rem;
                 font-weight: 400;
-                text-align: center;
+                text-align: center; display: none;
               ">
                     Your details
                 </div>
@@ -164,7 +166,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid middle-block blue-background lora-regular pt-pb3">
+<div class="container-fluid middle-block blue-background lora-regular pt3 pb2-4 side-padding">
     <h1>WE OFFER AN EXTENSIVE RANGE OF SERVICES</h1>
     <p>
         You need to hold a meeting, presentation, or gala supper, or realize
@@ -177,23 +179,29 @@
         at highly competitive prices.
     </p>
 </div>
-<div class="container-fluid red-background lora-regular pt-pb3">
+<div class="container-fluid red-background lora-regular pt-pb5  side-padding">
     <div class="card mb-0" style="z-index: 10;">
         <div class="row g-0">
             <div class="col-md-6">
                 <img src="img/pco.jpg" class="img-fluid" alt=""/>
             </div>
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body  d-flex flex-column">
                     <h2 class="card-title">PCO</h2>
                     <p class="card-text ">
                         Our professional team has extensive experience in organizing international projects and will be
                         happy to
                         help you organize your event. To get started, all you need to do is get in touch with us,
                         outlining what
+                        you wanted what you would like to achieve. help you organize your event. To get started, all you
+                        need to do is get in touch with us,
+                        outlining what
+                        you wanted what you would like to achieve. help you organize your event. To get started, all you
+                        need to do is get in touch with us,
+                        outlining what
                         you wanted what you would like to achieve.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
@@ -203,9 +211,9 @@
         </div>
     </div>
     <div class="card mb-0" style="z-index: 9;">
-        <div class="row g-0">
+        <div class="row g-0 d-flex">
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Corporate events</h2>
                     <p class="card-text">
                         In planning an important corporate conference or event, its organizers are always looking for
@@ -214,14 +222,14 @@
                         expert
                         knowledge of the local situation.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 order-first order-md-1">
                 <img src="img/corporate_events.jpg" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -232,7 +240,7 @@
                 <img src="img/corporate_meetings.jpg" class="img-fluid" alt=""/>
             </div>
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Corporate meetings</h2>
                     <p class="card-text">
                         One factor which influences a firm&#x2019;s image is the regular holding of corporate meetings,
@@ -240,7 +248,7 @@
                         annual
                         general meetings (AGM), extraordinary general meetings, and board meetings.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
@@ -252,7 +260,7 @@
     <div class="card mb-0" style="z-index: 7;">
         <div class="row g-0">
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Incentive travel</h2>
                     <p class="card-text">
                         The most effective way to organize incentive travel is to contact the DMC in the region which
@@ -261,14 +269,14 @@
                         giving them a
                         chance to experience some unforgettable incentive travel!
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 order-first order-md-1">
                 <img src="img/incentive_travel.jpg" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -279,7 +287,7 @@
                 <img src="img/gd2.jpg" class="img-fluid" alt=""/>
             </div>
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Gala dinners</h2>
                     <p class="card-text">
                         The conclusion to every event is a celebratory reception. This may take any of a number of
@@ -288,7 +296,7 @@
                         in
                         organizing them every detail counts.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
@@ -300,7 +308,7 @@
     <div class="card mb-0" style="z-index: 5;">
         <div class="row g-0">
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Team-building activities</h2>
                     <p class="card-text">
                         Team-building is an excellent chance to elevate your company&#x2019;s corporate spirit, give
@@ -310,14 +318,14 @@
                         trips are
                         key.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 order-first order-md-1">
                 <img src="img/team_drums.jpg" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -328,7 +336,7 @@
                 <img src="img/accommodation.jpg" class="img-fluid" alt=""/>
             </div>
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Accommodation</h2>
                     <p class="card-text">
                         On any trip your hotel becomes your second home &#2013; a place where you should feel truly
@@ -337,7 +345,7 @@
                         others still it is
                         a high-tech interior-design project.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
@@ -349,7 +357,7 @@
     <div class="card mb-0" style="z-index: 3;">
         <div class="row g-0">
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Venuefinding</h2>
                     <p class="card-text">
                         Our aim is to make your event successful while saving you time, money, and nerves and without
@@ -358,14 +366,14 @@
                         build
                         relationships with our clients as we help them organize their events.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 order-first order-md-1">
                 <img src="img/venue_finding.jpg" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -376,14 +384,14 @@
                 <img src="img/ground_ transportation.jpg" class="img-fluid" alt=""/>
             </div>
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                     <h2 class="card-title">Ground transportation</h2>
                     <p class="card-text">
                         Ground transportation is vital to the success of any event. Today transfers are the most popular
                         service,
                         whether from the airport or to a venue for an event, evening reception, or celebration.
                     </p>
-                    <div class="card-btn-wrapper">
+                    <div class="card-btn-wrapper mt-auto text-end">
                         <button type="submit" class="card-btn">
                             REQUEST A PROPOSAL
                         </button>
@@ -394,13 +402,13 @@
     </div>
 </div>
 <div class="with_blue_line"></div>
-<footer>
+<footer class="side-padding">
     <div class="container-fluid">
         <div class="row g-3">
-            <div class="col-md-4 contact-block"><a class="navbar-brand mb-sm-1  mt-sm-4" href="index.html"
+            <div class="col-md-4 contact-block"><a class="navbar-brand" href="index.html"
                                                    title="A-DMC GLOBAL"><img
                     src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="200"/></a>
-                <h2 class="my-5 py-0">REGIONAL REPRESENTATION</h2>
+                <h2>REGIONAL REPRESENTATION</h2>
                 <dl>
                     <dt class="lora-semibold">
                         <div>AFRICA & MIDDLE EAST</div>

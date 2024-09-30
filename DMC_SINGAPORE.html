@@ -27,7 +27,7 @@
 
 <body>
 <script src="js/bootstrap.bundle.min.js"></script>
-<header class="header-wrapper">
+<header class="header-wrapper ">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid"><a class="navbar-brand" href="index.html" title="A-DMC GLOBAL"><img
                 src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="150"/></a>
@@ -39,11 +39,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-                <div class="navbar-nav top-menu">
-                    <a class="nav-link" href="mice_offers.html">MICE Offers</a>
-                    <a class="nav-link" href="add_services.html">Add Services</a>
-                    <a class="nav-link" href="choose_destination.html">Choose a Destination</a>
-                </div>
+                <ul class="navbar-nav top-menu">
+                    <li><a class="nav-link" href="mice_offers.html">MICE Offers</a></li>
+                    <li><a class="nav-link" href="add_services.html">Add Services</a></li>
+                    <li><a class="nav-link" href="choose_destination.html">Choose a Destination</a></li>
+                </ul>
+
             </div>
 
         </div>
@@ -79,7 +80,7 @@
         </div>
     </nav>
 </header>
-<section class="banner-section" style="background-image: url(img/banner_3.jpg)">
+<section class="banner-section side-padding" style="background-image: url(img/banner_3.jpg)">
     <!-- здесь прописывается адрес картинки банера -->
     <div class="container-fluid banner-section-container lora-regular">
         <h1>DMC SINGAPORE</h1>
@@ -116,7 +117,7 @@
                 color: #a61d37;
                 font-size: 1rem;
                 font-weight: 400;
-                text-align: center;
+                text-align: center; display: none;
               ">
                     Your details
                 </div>
@@ -193,9 +194,10 @@
         </div>
     </div>
 </div>
-<div class="container-fluid middle-block blue-background lora-regular pt-pb3">
+<div class="container-fluid middle-block blue-background lora-regular side-padding"
+     style="padding-top: 71px;padding-bottom: 80px">
 
-    <dl class="info-block row my-lg-2">
+    <dl class="info-block row">
         <dt class="col-sm-4">
             <div class="title-with-right-border">Destination services in Singapore</div>
         </dt>
@@ -204,7 +206,7 @@
                 cities in our region.</p>
         </dd>
     </dl>
-    <div class="row mt-lg-5">
+    <div class="row " style="padding-top: 23px">
         <div class="col-sm-4 fs-6 lh-sm my-lg-4 ">
             <p class="title">PCO</p>
             <p>Our professional team has extensive experience in organizing international projects and will be happy to
@@ -273,16 +275,16 @@
 
 </div>
 
-<footer>
+<footer class=" side-padding">
     <div class="container-fluid">
         <div class="row g-3">
-            <div class="col-md-4 contact-block"><a class="navbar-brand  mb-sm-1  mt-sm-4" href="index.html"
+            <div class="col-md-4 contact-block"><a class="navbar-brand" href="index.html"
                                                    title="A-DMC GLOBAL"><img
                     src="img/logo003.svg" alt="A-DMC GLOBAL" width="200"/></a>
 
                 <dl>
                     <dt class="lora-semibold">
-                        <div>PCO, EVENT AND DESTINATION MANAGEMENT</div>
+                        <div>PCO, EVENT AND <br>DESTINATION MANAGEMENT</div>
                         <div class="red">IN SINGAPORE</div>
                     </dt>
                     <dd class="lora-regular"><a href="mailto:singapore@a-dmcglobal.com"

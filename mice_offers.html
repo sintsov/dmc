@@ -28,7 +28,7 @@
 <body>
 <script src="js/bootstrap.bundle.min.js"></script>
 <header class="header-wrapper">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
         <div class="container-fluid"><a class="navbar-brand" href="index.html" title="A-DMC GLOBAL"><img
                 src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="150"/></a>
             <button
@@ -39,18 +39,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-                <div class="navbar-nav top-menu">
-                    <a class="nav-link active" href="mice_offers.html">MICE Offers</a>
-                    <a class="nav-link" href="add_services.html">Add Services</a>
-                    <a class="nav-link" href="choose_destination.html">Choose a Destination</a>
-                </div>
+
+                <ul class="navbar-nav top-menu">
+                    <li><a class="nav-link active" href="mice_offers.html">MICE Offers</a></li>
+                    <li><a class="nav-link" href="#">Add Services</a></li>
+                    <li><a class="nav-link" href="choose_destination.html">Choose a Destination</a></li>
+                </ul>
+
             </div>
 
         </div>
     </nav>
 
 </header>
-<section class="banner-section" style="background-image: url(img/banner_1.jpg)">
+<section class="banner-section  side-padding" style="background-image: url(img/banner_1.jpg)">
     <!-- здесь прописывается адрес картинки банера -->
     <div class="container-fluid banner-section-container lora-regular">
         <h1>OFFERS FOR MICE EVENTS </h1>
@@ -89,7 +91,7 @@
               color: #a61d37;
               font-size: 1rem;
               font-weight: 400;
-              text-align: center;
+              text-align: center; display: none;
             ">
                     Your details
                 </div>
@@ -169,8 +171,7 @@
 </div>
 
 
-<div class="container-fluid middle-block blue-background lora-regular pt-pb4">
-
+<div class="container-fluid middle-block blue-background lora-regular pt-pb5  side-padding">
 
     <div class="card mb-0" style="z-index: 10;">
         <div class="row g-0">
@@ -200,7 +201,7 @@
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  order-first order-md-1">
                 <img src="img/gala_dinners.png" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -233,7 +234,7 @@
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  order-first order-md-1">
                 <img src="img/gd.jpg" class="img-fluid" alt=""/>
             </div>
         </div>
@@ -258,13 +259,13 @@
 
 </div>
 
-<footer>
+<footer class="side-padding">
     <div class="container-fluid">
         <div class="row g-3">
-            <div class="col-md-4 contact-block"><a class="navbar-brand mb-sm-1  mt-sm-4" href="index.html"
+            <div class="col-md-4 contact-block"><a class="navbar-brand" href="index.html"
                                                    title="A-DMC GLOBAL"><img
                     src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="200"/></a>
-                <h2 class="my-5 py-0">REGIONAL REPRESENTATION</h2>
+                <h2>REGIONAL REPRESENTATION</h2>
                 <dl>
                     <dt class="lora-semibold">
                         <div>AFRICA & MIDDLE EAST</div>

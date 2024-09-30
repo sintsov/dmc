@@ -57,7 +57,7 @@
     });
 </script>
 <header class="header-wrapper">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
         <div class="container-fluid"><a class="navbar-brand" href="index.html" title="A-DMC GLOBAL"><img
                 src="img/a_dms_logo.svg" alt="A-DMC GLOBAL" width="150"/></a>
             <button
@@ -67,11 +67,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav top-menu">
-                    <a class="nav-link" href="mice_offers.html">MICE Offers</a>
-                    <a class="nav-link" href="add_services.html">Add Services</a>
-                    <a class="nav-link active" href="choose_destination.html">Choose a Destination</a>
-                </div>
+                <ul class="navbar-nav top-menu">
+                    <li><a class="nav-link" href="mice_offers.html">MICE Offers</a></li>
+                    <li><a class="nav-link" href="add_services.html">Add Services</a></li>
+                    <li><a class="nav-link" href="choose_destination.html">Choose a Destination</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -106,12 +106,12 @@
         </div>
     </nav>
 </header>
-<section class="banner-section" style="background-image: url(img/world_map.jpg);min-height: 356px;">
+<section class="banner-section side-padding" style="background-image: url(img/world_map.jpg);min-height: 356px;">
     <!-- здесь прописывается адрес картинки банера -->
     <div class="container-fluid banner-section-container lora-regular">
         <h1>CHOOSE A MICE DESTINATION</h1>
-        <div class="row g-0">
-            <div class="col-sm-3"><label class="form-label fs-4 select-title"><strong>SELECT:</strong></label>
+        <div class="row g-0 form-choice-direction">
+            <div class="col-sm-3 text-end"><label class="form-label fs-4 select-title"><strong>SELECT:</strong></label>
             </div>
             <div class="col-sm-3" style="text-align: left;"><select id="select1" class="form-select" title=""
                                                                     data-width="100%"
@@ -180,7 +180,7 @@
               color: #a61d37;
               font-size: 1rem;
               font-weight: 400;
-              text-align: center;
+              text-align: center; display: none;
             ">
                     Your details
                 </div>
@@ -260,14 +260,14 @@
 </div>
 
 
-<div class="container-fluid red-background lora-regular">
+<div class="container-fluid red-background-type2 lora-regular side-padding">
     <h2 class="text-center mb-0 pt-pb1">THE WORLD&#x2019;S MOST EXCITING DESTINATIONS</h2>
 </div>
-<div class="container-fluid middle-block blue-background lora-regular pt-pb3 ">
+<div class="container-fluid middle-block blue-background lora-regular pt-pb3 side-padding">
     <div class="row">
         <div class="col-sm-4 d-flex mb-3">
             <div class="card card-sp-offers text-white img-hover-zoom">
-                <img src="img/offers/dmc_latvia.jpg" class="card-img" alt="...">
+                <img src="img/offers/dmc_latvia.jpg" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Riga</h5>
                     <div class="invisible-txt lora-regular">
@@ -283,7 +283,7 @@
         </div>
         <div class="col-sm-4 mb-3 d-flex">
             <div class="card card-sp-offers text-white img-hover-zoom">
-                <img src="img/offers/singapore.jpg" class="card-img" alt="...">
+                <img src="img/offers/singapore.jpg" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Singapore</h5>
                     <div class="invisible-txt  lora-regular">
@@ -298,7 +298,7 @@
         </div>
         <div class="col-sm-4 mb-3 d-flex">
             <div class="card card-sp-offers text-white img-hover-zoom">
-                <img src="img/offers/dmc_seoul2.jpg" class="card-img" alt="...">
+                <img src="img/offers/dmc_seoul2.jpg" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Seoul</h5>
                     <div class="invisible-txt lora-regular">
@@ -314,7 +314,7 @@
 
         <div class="col-sm-4 mb-3 d-flex">
             <div class="card card-sp-offers text-white img-hover-zoom">
-                <img src="img/offers/melbourne.jpg" class="card-img" alt="...">
+                <img src="img/offers/melbourne.jpg" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Melbourne</h5>
                     <div class="invisible-txt  lora-regular">
@@ -329,8 +329,8 @@
         </div>
 
         <div class="col-sm-4 mb-3 d-flex">
-            <div class="card card-sp-offers text-white  img-hover-zoom">
-                <img src="img/offers/dmc_bangkok.jpg" class="card-img" alt="...">
+            <div class="card card-sp-offers text-white img-hover-zoom">
+                <img src="img/offers/dmc_bangkok.jpg" class="img-fluid card-img" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Bangkok</h5>
                     <div class="invisible-txt  lora-regular">
@@ -346,7 +346,7 @@
 
         <div class="col-sm-4 mb-3 d-flex">
             <div class="card card-sp-offers text-white img-hover-zoom">
-                <img src="img/offers/LOC_Prague_castle.jpg" class="card-img" alt="...">
+                <img src="img/offers/LOC_Prague_castle.jpg" class="card-img img-fluid" alt="...">
                 <div class="card-img-overlay align-content-center fs-6">
                     <h5 class="card-title">Prague</h5>
                     <div class="invisible-txt  lora-regular">
@@ -362,13 +362,13 @@
 
     </div>
 </div>
-<footer>
+<footer class="side-padding">
     <div class="container-fluid">
         <div class="row g-3">
-            <div class="col-md-4 contact-block"><a class="navbar-brand mb-sm-1  mt-sm-4" href="index.html"
+            <div class="col-md-4 contact-block"><a class="navbar-brand" href="index.html"
                                                    title="A-DMC GLOBAL"><img src="img/a_dms_logo.svg" alt="A-DMC GLOBAL"
                                                                              width="200"/></a>
-                <h2 class="my-5 py-0">REGIONAL REPRESENTATION</h2>
+                <h2>REGIONAL REPRESENTATION</h2>
                 <dl>
                     <dt class="lora-semibold">
                         <div>AFRICA & MIDDLE EAST</div>

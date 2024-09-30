@@ -47,13 +47,6 @@ body {
     top: .6rem;
 }
 
-.middle-block,
-.red-background,
-.banner-section-container,
-footer {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem
-}
 
 .navbar-brand {
 
@@ -279,7 +272,7 @@ h2 {
 .form-label {
     font-size: 0.875rem;
     margin-bottom: 0;
-    padding-left: 0.313rem;
+    /*padding-left: 0.313rem;*/
 }
 
 .red {
@@ -340,6 +333,7 @@ h2 {
     font-size: 1.125rem;
     font-weight: 800;
     line-height: 2.125rem;
+    white-space: nowrap;
     width: 100%;
 }
 
@@ -367,6 +361,11 @@ h2 {
     font-weight: 600;
 }
 
+.pt-pb7 {
+    padding-top: 1.563rem;
+    padding-bottom: .5rem;
+}
+
 .pt-pb1,
 h2.pt-pb1 {
     padding-top: 1rem;
@@ -389,8 +388,18 @@ h2.pt-pb2 {
     padding-bottom: 4rem
 }
 
-.pb4 {
-    padding-bottom: 4rem;
+.pt-pb5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.pt-pb6 {
+    padding-top: 1.7rem;
+    padding-bottom: 1.54rem;
+}
+
+.pt3 {
+    padding-top: 3.8rem;
 }
 
 .pt4 {
@@ -400,7 +409,18 @@ h2.pt-pb2 {
 .pt5 {
     padding-top: 5rem;
 }
-
+.pb2 {
+    padding-bottom: 2rem;
+}
+.pb2-4 {
+    padding-bottom: 2.4rem;
+}
+.pb3 {
+    padding-bottom: 3rem;
+}
+.pb4 {
+    padding-bottom: 4rem;
+}
 .pb5 {
     padding-bottom: 5rem;
 }
@@ -571,19 +591,6 @@ h2.card-title:after {
     height: 100%
 }
 
-.card-btn-wrapper {
-    height: 2.75rem;
-    margin-top: 1.5rem;
-}
-
-button.card-btn:nth-child(odd) {
-    right: 1.563rem;
-
-}
-
-button.card-btn:nth-child(even) {
-    left: 1.563rem;
-}
 
 .with_blue_line {
     border-top: 6.063rem solid #26304D
@@ -610,26 +617,26 @@ footer {
 
 footer .navbar-brand {
     display: inline-block;
-    margin: 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .contact-block h2 {
     color: #26304D;
     font-size: 1.125rem;
     font-weight: 800;
-    margin-bottom: 3.125rem
+    line-height: 1.563rem;
+    margin-bottom: 2.875rem;margin-top: 1.688rem;padding: 0;
 }
 
 .contact-block dl {
-    font-size: 1rem;
+    font-size: 1rem; line-height: 1.563rem;width: 90%;
 }
 
 .contact-block dl dt {
-    color: #26304D;
-    margin-bottom: 0.75rem;
-    margin-top: 2.125rem
-}
+    color: #26304D;margin-bottom: 0.75rem;
 
+}
+.contact-block dl dd{margin: 10px 0 32px 0}
 .email-link {
     background: url("data:image/svg+xml,%3Csvg width='17' height='16' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0.216309V2.84692L8.5 8.10816L17 2.84692V0.216309H0ZM0 5.47754V16H17V5.47754L8.5 10.7388L0 5.47754Z' fill='%23A61D37'/%3E%3C/svg%3E%0A") no-repeat left center;
     color: #26304D;
@@ -643,7 +650,7 @@ footer .navbar-brand {
 .block-title {
     color: #A61D37;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 800;margin-bottom: 0px;padding-top: 1.813rem;padding-bottom: 1.938rem;
 
 }
 
@@ -666,7 +673,7 @@ footer .navbar-brand {
 }
 
 .footer-contact-form .captcha {
-    margin: 0 0 0 0.375rem;
+    margin: 0;
     display: inline-block;
 }
 
@@ -701,7 +708,8 @@ footer .comment {
     background: #26304D;
     color: #fff;
     font-size: 1.125rem;
-    padding: 1.125rem 0;
+    line-height: 1.625rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -711,6 +719,7 @@ footer .comment {
     font-size: 1.5rem;
     line-height: 1.875rem;
 }
+
 
 .info-block dt {
     text-transform: uppercase;
@@ -727,7 +736,8 @@ footer .comment {
 
 .info-block dd {
     font-size: 1.125rem;
-    padding-left: 1.688rem
+    line-height: 1.438rem;
+    padding-left: 1.25rem
 }
 
 .title {
@@ -778,7 +788,7 @@ select {
     font-weight: 800;
     font-family: gilroy, serif;
     letter-spacing: .1rem;
-    margin-right: 2.5rem
+    margin-right: 2.5rem;
 }
 
 .mr3 {
@@ -842,16 +852,12 @@ select {
 .link-button {
     color: #A61D37;
     font-size: 1rem;
-    position: absolute;
-    bottom: 1.5rem;
-    right: 0;
+
     display: block;
-    padding-right: 1.688rem;
+
+    text-decoration: none;
 }
 
-.carousel-item img {
-    height: 360px;
-}
 
 .partnership-form {
     margin: 0 auto;
@@ -859,13 +865,13 @@ select {
 }
 
 .partnership-form h2 {
-    margin-bottom: 0;
+    margin-bottom: 14px;
     padding-bottom: 0
 }
 
 .partnership-form p {
     margin-top: 0;
-    padding: .5rem 0
+    padding: .8rem 0 0 0
 }
 
 .partnership-form .btn-primary:hover {
@@ -885,3 +891,103 @@ select {
     display: inline !important;
     width: auto
 }
+
+.card-title {
+    text-transform: uppercase
+}
+
+.banner-section-container {
+    width: 90%
+}
+
+.info-block .m-b-for-p p {
+    margin-bottom: 1.875rem;
+}
+
+.new-mt-5 {
+    margin-top: 68px
+}
+
+
+.partnership-form {
+    padding-top: 83px;
+}
+
+.black-border {
+    border-top: 1px solid #000;
+}
+
+.red-background-type2 {
+    background: #A61D37
+}
+
+.btn-mt {
+    margin-top: 1.063px
+}
+
+.partnership-form .form-control {
+    padding: .5rem .75rem;
+}
+
+.left-position-top-menu {
+
+    left: 10px;
+
+}
+
+header .navbar-brand {
+    padding-left: 80px
+}
+
+header .nav-direction {
+    padding-right: 80px;
+}
+
+.side-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media (max-width: 1000px) {
+    header .nav-direction {
+        padding-right: 20px;
+    }
+
+    header .navbar-brand {
+        padding-left: 40px
+    }
+
+    .side-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+.card-btn-wrapper {
+    padding-bottom: 1.5rem
+}
+
+.card-btn,
+.card-btn:hover {
+    position: static;
+
+}
+
+.img-fluid {
+    max-inline-size: 100%;
+    aspect-ratio: auto 1.86;
+    object-fit: cover;
+}
+
+.carousel-item {
+    height: 360px;
+}
+.with-scroll{height: 360px; overflow: auto;}
+.feedback-block,.feedback-block dd,.feedback-block dt{margin-bottom: 0}
+.feedback-block{padding-right: 1rem;}
+.contact-block {padding-top: 28px;}
+@media (max-width: 500px) {.card-btn-wrapper{text-align: center !important}
+
+    }
+
+.card-sp-offers{height: 309px;width: 100%}
